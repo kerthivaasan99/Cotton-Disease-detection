@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Image - Cotton Disease Detection</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Upload Cotton Leaf Image🍃</h1>
+    <p>"One click to protect your crops"</p>
+</header>
+
+<div class="container">
+    <div class="section">
+        <img id="upload-page" src="static\uploads\nee kavithaigala.jpg" alt="Upload Leaf Image" class="upload-image">
+        <form action="/predict" method="POST" enctype="multipart/form-data">
+            <input class="d-d" type="file" name="file" required>
+            <button class="d-d" type="submit">Detect Disease</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    Let's make farming smarter!📈
+</footer>
+
+</body>
+</html>
