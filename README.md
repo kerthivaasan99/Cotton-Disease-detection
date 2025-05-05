@@ -83,3 +83,45 @@ Edit
 
 # Download the Pre-trained CNN model
 form here : https://drive.google.com/file/d/1aDkw8vqbUbbuWGQb8K9PNrQ5MbXTDNDr/view?usp=drive_link
+
+# 📊 Dashboard
+
+/dashboard: Visualize trends from real test data.
+
+All charts update automatically from cotton_disease.db.
+
+
+
+---
+
+# 📝 Consultancy Booking
+
+/consultancy: Submit name, email, phone, and message.
+
+Data is stored in consultancy_requests table in the DB.
+
+Google Form link opens in a new tab for additional info.
+
+
+
+---
+
+# 📌 Notes
+
+Make sure cotton_disease_model.h5 exists in root directory.
+
+cotton_disease.db will be created automatically after first prediction or consultancy form submission.
+
+You can run database.py manually once to pre-create schema if needed.
+
+All uploaded files are saved in static/uploads/.
+
+
+
+---
+
+# 🙌 Credits
+
+Developed as part of a final-year project in Computer Science & Engineering
+# By: Vinod Kumar M M– Er. Perumal Manikekalai College of engineering, 2025
+
