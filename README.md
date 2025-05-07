@@ -109,5 +109,3 @@ Developed as part of a final-year project in Computer Science & Engineering
 **Institution:** Er. Perumal Manimekalai College of Engineering, 2025
 
 ---
-
-Would you like this formatted into a PDF or added to your GitHub README?
